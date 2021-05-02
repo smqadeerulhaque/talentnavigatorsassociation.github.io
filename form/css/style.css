@@ -1,0 +1,168 @@
+html, body{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+*{margin: 0; padding: 0; font-family: 'Rubik', sans-serif,Iceland;text-decoration: none;}
+
+html, body{
+    color: black;
+}
+html, body{
+    content: "" ;
+    position: absolute;
+    top: 0; right: 0; left: 0; bottom: 0;
+    background: linear-gradient(312deg, #00d5ff 60%, #fff 0%);
+    background: url(../assets/blogg1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;background-attachment: fixed;
+    -webkit-background-size: cover;
+    z-index: -1;
+    margin-bottom: 0%;
+}
+
+.form-group{
+    margin: 3rem 8rem;
+    padding: 3rem 2rem;
+    text-align: left;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-weight: bold;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    background: transparent;justify-content: space-between;
+}
+
+.form-inline{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    font-size: 15px;
+    background: transparent;
+    justify-content: space-between;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 1rem;
+}
+.oh{
+    letter-spacing: .1em;
+    font-weight: bold;
+    font-size: 15px;
+}
+.up{
+    padding-top: 1rem;
+}
+.upcheck{
+    padding-top: 1rem;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    padding-left: 1.25rem;
+}
+.help-buttons a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 6px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: .15em;
+    border: .25px solid white;
+    background: black;
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.3);
+    color: white;
+    margin-left: 45rem ;
+    margin-bottom: 2rem;
+}
+.help-buttons a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 7px 29px;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: .2em;
+    border: .25px solid white;
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.3);
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (max-width:650px){
+    html, body{
+        margin: .5rem .25rem;
+        content: "" ;
+        position: absolute;
+        top: 0; right: 0; left: 0; bottom: 0;
+        background: url(../assets/blogg1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;background-attachment: fixed;
+        -webkit-background-size: cover;
+        margin-right: 0%;
+    }
+    .form-group{
+        margin: .5rem 0;
+        padding: 1rem .5rem;
+        text-align: left;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        background: transparent;
+        justify-content: space-between;
+        width: 95%;
+        margin-right: 0%;
+    }
+    .form-inline{
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        font-size: 13px;
+        background: transparent;
+        justify-content: space-between;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        padding-top: 1rem;
+        margin-right: 0%;
+    }
+    .oh{
+        letter-spacing: .1em;
+        font-size: 13px;
+        padding-top: 1rem;
+        padding-bottom: 0%;
+        margin-right: 0%;
+    }
+    
+    .upcheck{
+        padding-top: 1rem;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        margin-right: 0%;
+    }
+    .help-buttons a{
+        width: 90%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 11px;
+        text-align: center;
+        padding: 6px 0;
+        cursor: pointer;
+        text-transform: uppercase;
+        display: inline-block;
+        letter-spacing: .1em;
+        border: .25px solid white;
+        background: black;
+        box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.3);
+        color: white;
+        margin: 1rem .5rem ;
+        margin-bottom: 2rem;
+        margin-right: 0%;
+    }
+
+}

@@ -1,0 +1,68 @@
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background: #e4f5f8;
+    font-family: 'Rubik', sans-serif,Iceland;text-decoration: none;
+}
+/*---------global classes--------*/
+
+a{
+    text-decoration: none;
+    color: black; 
+}
+.container{
+    width: 30%; height: 50vh; padding: 0px 0;position: relative;
+    margin: 9rem 20rem;
+    padding: 1.5rem 2rem;
+    text-transform: capitalize;
+    background: #00d5ff;
+    font-size: 1.5rem;
+    text-align: center;
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.3);
+}
+.container .card-body{
+    padding: .2rem .3rem;;
+}
+.container .card-body .name{
+    border: 1.5px solid  #00d5ff;
+    width: 90%;
+    height: 1.5rem;
+    margin: .5rem .3rem;
+}
+
+.container .card-body .pasword{
+    border: 1.5px solid  #00d5ff;
+    width: 90%;
+    height: 1.5rem;
+    margin: .5rem .3rem;
+}
+
+.container .card-body .btn{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 6px 13px;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 1.35rem 3rem;
+    margin-bottom: 1rem;
+    letter-spacing: .15em;
+    border: .25px solid white;
+    color: white;
+    background: transparent;
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.3);
+}
+.container .card .alert{
+    font-size: 11px;
+    margin: 0 1rem;
+    margin-top: 0%;
+    padding: .5rem 1rem;
+    color: white;
+    background: red;
+    font-weight: bold;
+    word-spacing: .2rem;
+    letter-spacing: .1rem;
+}
